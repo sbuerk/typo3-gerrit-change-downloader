@@ -1,7 +1,7 @@
 {
     "name": "sbuerk/typo3-gerrit-change-downloader",
     "description": "Provides binary (php script) to download TYPO3 Gerrit changes to project folder",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
