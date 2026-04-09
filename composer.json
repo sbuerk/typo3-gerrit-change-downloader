@@ -1,0 +1,26 @@
+{
+    "name": "sbuerk/typo3-gerrit-change-downloader",
+    "description": "Provides binary (php script) to download TYPO3 Gerrit changes to project folder",
+    "type": "composer-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Stefan Bürk",
+            "email": "stefan@buerk.tech"
+        }
+    ],
+    "bin": [
+        "bin/download-patch-from-gerrit.phpsh"
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer-runtime-api": "^2.2.2",
+        "vaimo/composer-patches": "^6.0.1"
+    },
+    "config": {
+        "allow-plugins": {
+            "vaimo/composer-patches": true
+        },
+        "sort-packages": true
+    }
+}
